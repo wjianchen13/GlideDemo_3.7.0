@@ -13,6 +13,7 @@ import com.bumptech.glide.request.target.Target;
 public class MainActivity extends AppCompatActivity {
 
     private String mUrl = "https://img.ayomet.com/upload/room_img/2024-09-17/100691807_1726566456098.jpeg?imageView2/0/w/160/h/160";
+    private String mUrl1 = "https://img.ayomet.com/upload/banner/2024-11-01/db167314bff9f82f722de2c1aeb39162.jpg";
     private ImageView imgvTest;
 
     @Override
@@ -26,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Utils.log("MainActivity onTest1");
 //        Glide.with(this).load(mUrl).into(imgvTest);
         Glide.with(this)
-                .load(mUrl)
+                .load(mUrl1)
                 .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
                 .override(Target.SIZE_ORIGINAL, Target.SIZE_ORIGINAL)
                 .into(imgvTest);
     }
