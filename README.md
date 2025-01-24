@@ -10,6 +10,8 @@ https://cloud.tencent.com/developer/article/1015744
 Glide 系列（八） Glide配置和自定义模块
 https://www.jianshu.com/p/24d48d9e7c2f
 
+编写定制的 ModelLoader
+https://muyangmin.github.io/glide-docs-cn/tut/custom-modelloader.html
 
 
 ModelLoaderFactory
