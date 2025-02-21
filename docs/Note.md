@@ -1,3 +1,7 @@
 # 笔记
 
 FixedLoadProvider
+
+GenericLoaderFactory：
+modelClassToResourceFactories
+modelClassToResourceFactories
